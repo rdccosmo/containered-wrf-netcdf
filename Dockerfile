@@ -1,4 +1,4 @@
-FROM rdccosmo/wrfhdf5
+FROM rdccosmo/wrf-hdf5
 
 RUN wget http://www2.mmm.ucar.edu/wrf/OnLineTutorial/compile_tutorial/tar_files/netcdf-4.1.3.tar.gz && \
     tar xzvf netcdf-4.1.3.tar.gz && \
